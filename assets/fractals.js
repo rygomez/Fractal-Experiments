@@ -3,9 +3,7 @@ window.addEvent('domready',function(){
 	var i,f,
 		fractals = [
 			{	name: 'cantor',
-				constructor: Cantor,
-				width:800,
-				height: 480 },
+				constructor: Cantor },
 			{	name: 'pythagoras',
 				constructor: Pythagoras,
 				width:800,
