@@ -3,9 +3,7 @@ window.addEvent('domready',function(){
 	var i,f,
 		fractals = [
 			{	name: 'pythagoras',
-				constructor: Pythagoras,
-				width:800,
-				height:530 }
+				constructor: Pythagoras}
 		];
 	
 	// setup th rest of the fractal stuff.
